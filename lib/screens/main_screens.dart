@@ -1,5 +1,5 @@
 import 'package:carrot_app/screens/home/home_screen.dart';
-import 'package:carrot_app/screens/my_carrot/my_carrot.dart';
+import 'package:carrot_app/screens/my_carrot/my_carrot_screen.dart';
 import 'package:carrot_app/screens/near_me/near_me.dart';
 import 'package:carrot_app/screens/neighborhood_life/neighborhood_life_screen.dart';
 import 'package:flutter/material.dart';
@@ -14,8 +14,8 @@ class MainScreens extends StatefulWidget {
 }
 
 class _MainScreensState extends State<MainScreens> {
-  int selectedIndex = 0;
-  List<int> loadPages = [0]; // 크기는 1
+  int selectedIndex = 4;
+  List<int> loadPages = [4]; // 크기는 1
 
   void selectBottonMenu(int index){
     //List<int> pages = loadPages; // [0]

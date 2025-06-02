@@ -6,7 +6,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../model/product.dart';
-import '../components/list_item.dart';
+import 'component/list_item.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen();
